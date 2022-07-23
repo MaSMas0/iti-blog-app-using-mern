@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ../frontend && npm run build --prefix ../frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "mas",
   "license": "ISC",
@@ -17,7 +17,7 @@
     "@sendgrid/mail": "^7.4.5",
     "bad-words": "^3.0.4",
     "bcryptjs": "^2.4.3",
-    "cloudinary": "^1.26.2",
+    "cloudinary": "^1.30.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
