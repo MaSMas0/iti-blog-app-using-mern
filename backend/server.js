@@ -11,13 +11,10 @@ const emailMsgRoute = require("./route/emailMsg/emailMsgRoute");
 const categoryRoute = require("./route/category/categoryRoute");
 
 const path = require ('path')
-const { fileURLToPath } = require('url');
 
 const app = express();
 //DB
 dbConnect();
-
-const update = () => {};
 
 // app.get("/", (req, res) => {
 //   res.json({ msg: "API for blog Application..." });
